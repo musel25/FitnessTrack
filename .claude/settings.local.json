@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Read(//home/yfgh0541/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//snap/bin/**)",
+      "Bash(apt list *)",
+      "Bash(curl -fsSL https://deb.nodesource.com/setup_lts.x)",
+      "Bash(sudo -E bash -)",
+      "Read(//tmp/**)",
+      "Bash(curl -fsSL https://nodejs.org/dist/v20.18.1/node-v20.18.1-linux-x64.tar.xz -o node.tar.xz)",
+      "Bash(mkdir -p ~/.local/node)",
+      "Bash(tar -xJf node.tar.xz -C ~/.local/node --strip-components=1)",
+      "Bash(~/.local/node/bin/node --version)",
+      "Bash(export PATH=\"$HOME/.local/node/bin:$PATH\")",
+      "Bash(grep -q 'local/node/bin' ~/.bashrc || echo 'export PATH=\"$HOME/.local/node/bin:$PATH\"' >> ~/.bashrc && tail -3 ~/.bashrc)",
+      "Bash(npx --yes create-expo-app@latest . --template blank-typescript --no-install)",
+      "Bash(mkdir -p /tmp/health_preserve)",
+      "Bash(mv CLAUDE.md .claude /tmp/health_preserve/)",
+      "Bash(npx --yes create-expo-app@latest . --template default --no-install)",
+      "Bash(mv /tmp/health_preserve/CLAUDE.md /home/yfgh0541/Desktop/Pessoal/Health/ && ls /home/yfgh0541/Desktop/Pessoal/Health/)",
+      "Bash(npm view *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npx expo *)",
+      "Bash(curl -fsSL https://nodejs.org/dist/v22.13.0/node-v22.13.0-linux-x64.tar.xz -o node22.tar.xz)",
+      "Bash(rm -rf ~/.local/node)",
+      "Bash(tar -xJf node22.tar.xz -C ~/.local/node --strip-components=1)",
+      "Bash(~/.local/node/bin/npm --version)",
+      "Bash(npx expo-doctor *)",
+      "Bash(yes)"
+    ],
+    "additionalDirectories": [
+      "/home/yfgh0541",
+      "/tmp/health_preserve"
+    ]
+  }
+}

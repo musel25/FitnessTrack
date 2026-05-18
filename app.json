@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Fitness Tracker",
+    "slug": "fitness-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "fitnesstracker",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.personal.fitnesstracker"
+    },
+    "android": {
+      "package": "com.personal.fitnesstracker"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

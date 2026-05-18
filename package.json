@@ -1,0 +1,43 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "expo": "~55.0.24",
+    "expo-constants": "~55.0.16",
+    "expo-file-system": "~55.0.20",
+    "expo-linking": "~55.0.15",
+    "expo-router": "~55.0.14",
+    "expo-sharing": "~55.0.19",
+    "expo-sqlite": "~55.0.16",
+    "expo-status-bar": "~55.0.6",
+    "expo-system-ui": "~55.0.18",
+    "nativewind": "^4.2.0",
+    "react": "19.2.0",
+    "react-hook-form": "^7.53.0",
+    "react-native": "0.83.6",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-gifted-charts": "^1.4.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-reanimated": "4.2.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "15.15.3",
+    "react-native-worklets": "0.7.4",
+    "tailwindcss": "^3.4.17",
+    "zod": "^4.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~19.2.0",
+    "typescript": "~5.9.0"
+  },
+  "private": true
+}
